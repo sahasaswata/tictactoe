@@ -18,6 +18,7 @@ h1{
     justify-content: center;
 }
 .game{
+    position: relative;
     height: 60vmin;
     width: 60vmin;
     display: flex;
@@ -97,9 +98,9 @@ h1{
 .hide{
     display: none;
 }
-.pinkclass{
-    color: rgb(233, 52, 145);
-}
-.yellowclass{
-    color: yellow;
+.winning-line {
+    position: absolute;
+    height: 10px;
+    border-radius: 5px;
+    
 }
